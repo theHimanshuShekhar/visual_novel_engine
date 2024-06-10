@@ -9,7 +9,7 @@ export default function SplashScreen() {
 
   const playSound = () => {
     const audio = new Audio(SplashOpeningSFX);
-    audio.play();
+    // audio.play();
     const fadeOutInterval = setInterval(() => {
       if (audio.volume > 0.1) {
         audio.volume -= 0.1;
@@ -31,12 +31,16 @@ export default function SplashScreen() {
   }, []);
 
   return (
-    <div className="grid h-screen place-items-center bg-gradient-to-r from-slate-950 from-10% via-teal-950 via-50% to-slate-900 to-90%">
+    <div className="grid h-screen place-items-center bg-gradient-to-br from-purple-500 from-10% to-purple-700 to-90%">
       <div
         className="grid place-items-center"
         style={{ gridTemplateRows: "1fr 0.2fr" }}
       >
-        <img src={SplashLogo} className="w-96 animate-pulse" alt="" />
+        <img
+          src={SplashLogo}
+          className="w-96 animate-pulse rounded-full border-4 bg-purple-900"
+          alt=""
+        />
       </div>
     </div>
   );
