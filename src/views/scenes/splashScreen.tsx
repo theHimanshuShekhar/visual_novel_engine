@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import SplashLogo from "../../assets/splash_screen.png";
 import SplashOpeningSFX from "../../assets/Sounds/Sfx/splashScreenSFX.mp3";
 
-function SplashScreen() {
+export default function SplashScreen() {
   const navigate = useNavigate();
 
   const playSound = () => {
@@ -41,5 +41,3 @@ function SplashScreen() {
     </div>
   );
 }
-
-export default SplashScreen;

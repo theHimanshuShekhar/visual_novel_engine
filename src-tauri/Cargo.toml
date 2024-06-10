@@ -1,8 +1,8 @@
 [package]
 name = "visual_novel_engine"
-version = "0.0.0"
-description = "A Tauri App"
-authors = ["you"]
+version = "0.0.1"
+description = "Visual Novel engine built in Tauri (React + Rust)"
+authors = ["theHimanshuShekhar"]
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
