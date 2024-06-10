@@ -1,7 +1,13 @@
-# Tauri + React + Typescript
+# Tauri Visual Novel Engine
 
-This template should help get you started developing with Tauri, React and Typescript in Vite.
+Visual Novel engine built in Tauri (React + Rust) goodness!
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Tauri](https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode) + [rust-analyzer](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer)
+- [ ] Start Menu (Custom menu items and submenus, Background (Maybe Animated), Splash screen)
+- [ ] Pause Menu
+- [ ] Savegames (Save/Load reliably)
+- [ ] Dialogue box (default + customizable + with character sprites (maybe animated sprites))
+- [ ] Scene background (maybe animated)
+- [ ] Scene assets/sprites (able to position exactly + scale dynamically based on screen size)
+- [ ] Debug mode with visual placement
+- [ ] Visual FX (Framer motion?)
+- [ ] Sound FX
